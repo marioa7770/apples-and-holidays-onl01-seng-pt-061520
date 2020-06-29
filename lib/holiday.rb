@@ -16,12 +16,3 @@ holiday_supplies = {
   }
 }
 
-   def second_supply_for_fourth_of_july(holiday_hash)
-    holiday_hash.each do |seasons, holidays|
-      holidays.each do |days, characteristics|
-        if days == :fourth_of_july
-          return characteristics[1]
-        end
-      end
-    end
- end
